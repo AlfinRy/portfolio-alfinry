@@ -34,7 +34,7 @@
     "next": "14.0.1",
     "next-themes": "^0.2.1",
     "ngrok": "^5.0.0-beta.2",
-    "nodemailer": "^6.9.7",
+    "nodemailer": "^6.9.14",
     "react": "^18",
     "react-dom": "^18",
     "react-email": "^1.9.5",

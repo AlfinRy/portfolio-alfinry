@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
   })
 
   const emailHtml = render(
-    ContactEmail({email, name, subject, message}) as ReactElement
+    ContactEmail({ email, name, subject, message }) as ReactElement
   )
 
   const mailOptions: Mail.Options = {
