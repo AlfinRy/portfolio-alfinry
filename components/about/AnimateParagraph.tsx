@@ -10,7 +10,17 @@ import {
 } from "framer-motion"
 import { useEffect, useRef } from "react"
 
-export default function AnimateParagraph({ paragraph }) {
+interface AnimateParagraphProps {
+  paragraph: string
+}
+
+interface WordProps {
+  children: React.ReactNode
+  range: [number, number]
+  progress: any
+}
+
+export default function AnimateParagraph({ paragraph }: AnimateParagraphProps) {
   const element = useRef(null)
   const { scrollYProgress } = useScroll({
     target: element,
@@ -36,7 +46,7 @@ export default function AnimateParagraph({ paragraph }) {
   )
 }
 
-const Word = ({ children, range, progress }) => {
+const Word = ({ children, range, progress }: WordProps) => {
   const opacity = useTransform(progress, range, [0, 1])
   return (
     <span className="relative mr-3 mt-3">
