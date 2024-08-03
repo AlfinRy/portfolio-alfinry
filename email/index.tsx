@@ -25,7 +25,7 @@ export default function ContactEmail({
   subject,
   message,
 }: ContactEmailProps) {
-  const baseUrl = "https://aafrzl.my.id/"
+  const baseUrl = "https://portfolio-alfinry.vercel.app/"
 
   return (
     <Html>

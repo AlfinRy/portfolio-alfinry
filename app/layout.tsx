@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   description:
     "A junior backend developer with a high desire to learn to develop a website.",
-  metadataBase: new URL("https://aafrzl.my.id"),
+  metadataBase: new URL("https://portfolio-alfinry.vercel.app/"),
   openGraph: {
     title: {
       template: "alfinry | %s",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     },
     description:
       "A junior backend developer with a high desire to learn to develop a website.",
-    url: "https://aafrzl.my.id",
+    url: "https://portfolio-alfinry.vercel.app/",
     siteName: "alfinry",
     images: [
       {
