@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "alfinry",
     images: [
       {
-        url: "/public/images/og-images.jpg",
+        url: "/public/images/ry.jpg",
         width: 1000,
         height: 1200,
       },
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     creator: "@alfinry",
     images: [
       {
-        url: "/public/images/og-images.jpg",
+        url: "/public/images/ry.jpg",
         width: 1000,
         height: 1200,
       },
