@@ -21,15 +21,4 @@ export const projects = [
     linkProject: "",
     repo: "https://github.com/AlfinRy/spp-app",
   },
-  {
-    id: 3,
-    slug: "project-3",
-    title: "Project 3",
-    description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/images/test-3.png",
-    tech: ["React", "TypeScript", "Next.js", "TailwindCSS"],
-    linkProject: "https://google.com",
-    repo: "https://github.com/aafrzl",
-  },
 ]
