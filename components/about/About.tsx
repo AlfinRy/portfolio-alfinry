@@ -12,6 +12,7 @@ import IconCloud from "../ui/icon-cloud"
 import ExperienceAnimate from "./ExperienceAnimate"
 import { experiences } from "@/lib/experienceData"
 import SkillBeam from "./SkillBeamAnimate"
+import SpotifyTitleAnimate from "./SpotifyTitleAnimate"
 
 const slugs = [
   "typescript",
@@ -56,7 +57,10 @@ export default function About() {
         </div>
 
         <div className="mb-10 flex w-full flex-col gap-4 leading-relaxed tracking-wide md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16 lg:max-w-[100%] lg:text-base">
-          <AnimateParagraph paragraph="Hi there! 👋🏼 I'm Alfin Reynaldi , I'm currently living in Bogor, Indonesia. I have a strong interest in backend development and aspire to become a proficient Backend Developer. Previously, I gained valuable experience through an internship as a Fullstack Web Developer, where I honed my skills in comprehensive web development. I’m always  open to new  opportunities and collaborations, so feel free to reach out to me! 🚀" />
+          <AnimateParagraph
+            paragraph="Hi there! 👋🏼 I'm Alfin Reynaldi, a passionate Web Developer based in Bogor, Indonesia.
+I’m a Software Engineering graduate with strong skills in backend and full-stack development, specializing in Laravel, React, and modern web technologies. I’ve gained hands-on experience through an internship as a Fullstack Web Developer, where I worked on building scalable and efficient applications. I’m always open to new opportunities to learn, collaborate, and grow as a developer. 🚀"
+          />
         </div>
 
         <div className="flex w-full flex-col justify-between gap-4 lg:max-w-[1200px] ">
@@ -71,8 +75,9 @@ export default function About() {
                 body={experience.body}
               />
             ))}
-            <Spotify />
           </div>
+          <SpotifyTitleAnimate />
+          <Spotify />
         </div>
 
         <div className="flex w-full flex-col justify-between gap-4 lg:max-w-[1200px] ">

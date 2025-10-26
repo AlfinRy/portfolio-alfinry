@@ -40,10 +40,9 @@ export default function ProjectTitleAnimate() {
       variants={projectTitleAnimation}
       className="flex w-full items-center"
     >
-      <h2 className="text-2xl font-bold md:text-3xl lg:text-4xl">Experience</h2>
-      {/* <h2 className="invisible ml-36 text-2xl font-bold md:text-3xl lg:visible lg:text-4xl">
+      <h2 className="text-2xl font-bold md:text-3xl lg:visible lg:text-4xl">
         Spotify
-      </h2> */}
+      </h2>
       {/* <Sparkles className="h-9 w-9 md:h-11 md:w-11 lg:h-16 lg:w-16" /> */}
     </motion.div>
   )
