@@ -1,17 +1,11 @@
 import AboutGlobeAnimate from "./AboutGlobeAnimate"
-import AnimateBody from "./AnimateBody"
-import AnimateHeading from "./AnimateHeading"
 import AnimateParagraph from "./AnimateParagraph"
 import AnimateTitle from "./AnimateTitle"
 import ExperienceTitle from "./ExperienceTitleAnimate"
-import SkillTitle from "./SkillTitleAnimate"
-import GithubGraph from "./GithubGraph"
-import SocialMedia from "./SocialMedia"
 import Spotify from "./Spotify"
 import IconCloud from "../ui/icon-cloud"
 import ExperienceAnimate from "./ExperienceAnimate"
 import { experiences } from "@/lib/experienceData"
-import SkillBeam from "./SkillBeamAnimate"
 import SpotifyTitleAnimate from "./SpotifyTitleAnimate"
 
 const slugs = [
@@ -58,8 +52,7 @@ export default function About() {
 
         <div className="mb-10 flex w-full flex-col gap-4 leading-relaxed tracking-wide md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16 lg:max-w-[100%] lg:text-base">
           <AnimateParagraph
-            paragraph="Hi there! 👋🏼 I'm Alfin Reynaldi, a passionate Web Developer based in Bogor, Indonesia.
-I’m a Software Engineering graduate with strong skills in backend and full-stack development, specializing in Laravel, React, and modern web technologies. I’ve gained hands-on experience through an internship as a Fullstack Web Developer, where I worked on building scalable and efficient applications. I’m always open to new opportunities to learn, collaborate, and grow as a developer. 🚀"
+            paragraph="Hi, I'm Alfin Reynaldi, a Web Developer focused on building scalable and production-ready web applications. I specialize in Laravel and React, with hands-on experience handling real-world systems — from feature development and debugging production issues to frontend migration and backend reliability improvements. I'm passionate about backend architecture, scalability, and building maintainable systems that grow with the product. 🚀"
           />
         </div>
 
