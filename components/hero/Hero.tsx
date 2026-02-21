@@ -19,7 +19,7 @@ export default function Hero() {
         <HeroText />
         <div className="mt-10 w-full overflow-hidden">
           <ParallaxText direction={500} baseVelocity={-1}>
-            Junior Backend Developer
+            Fullstack Developer
           </ParallaxText>
         </div>
       </div>

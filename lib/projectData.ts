@@ -21,4 +21,15 @@ export const projects = [
     linkProject: "",
     repo: "https://github.com/AlfinRy/spp-app",
   },
+  {
+    id: 3,
+    slug: "project-3",
+    title: "clean-response",
+    description:
+      "A lightweight, type-safe TypeScript utility for standardizing API responses in Express, Fastify, and Node.js applications.",
+    image: "/images/project-3.png",
+    tech: ["Next.js", "TypeScript", "Vitest", "tsup"],
+    linkProject: "https://clean-response.reys.workers.dev/",
+    repo: "https://github.com/AlfinRy/clean-response",
+  },
 ]

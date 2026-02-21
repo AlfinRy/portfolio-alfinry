@@ -23,9 +23,9 @@ export default function Project() {
           <ProjectGlobeAnimate />
         </div>
         <div className="mb-24 grid w-[100%] grid-cols-1 grid-rows-2 gap-x-6 gap-y-6 lg:w-[80%] lg:max-w-[1200px] lg:grid-cols-1">
-          {projects.slice(0, 3).map((project, index) => (
+          {projects.sort((a, b) => b.id - a.id).map((project) => (
             <ProjectCard
-              key={index}
+              key={project.id}
               title={project.title}
               description={project.description}
               image={project.image}

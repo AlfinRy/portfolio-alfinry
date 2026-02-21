@@ -22,9 +22,9 @@ export default function moreProject() {
         <ProjectGlobeAnimate />
       </div>
       <div className="mb-14 mt-10 grid w-full grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
-        {projects.map((project, index) => (
+        {projects.sort((a, b) => b.id - a.id).map((project) => (
           <ProjectCard
-            key={index}
+            key={project.id}
             title={project.title}
             description={project.description}
             image={project.image}

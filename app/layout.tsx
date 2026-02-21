@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     default: "alfinry | Portfolio",
   },
   description:
-    "A junior backend developer with a high desire to learn to develop a website.",
+    "A fullstack backend developer with a high desire to learn to develop a website.",
   metadataBase: new URL("https://portfolio-alfinry.vercel.app/"),
   openGraph: {
     title: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       default: "alfinry | Portfolio",
     },
     description:
-      "A junior backend developer with a high desire to learn to develop a website.",
+      "A fullstack backend developer with a high desire to learn to develop a website.",
     url: "https://portfolio-alfinry.vercel.app/",
     siteName: "alfinry",
     images: [
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
       default: "alfinry | Portfolio",
     },
     description:
-      "A junior backend developer with a high desire to learn to develop a website.",
+      "A fullstack backend developer with a high desire to learn to develop a website.",
     creator: "@alfinry",
     images: [
       {
