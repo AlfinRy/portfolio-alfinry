@@ -31,6 +31,16 @@ const slugs = [
   "mysql",
   "bootstrap",
   "tailwindcss",
+  "go",
+  "nodedotjs",
+  "nextdotjs",
+  "jenkins",
+  "docker",
+  "redis",
+  "postman",
+  "sonarqube",
+  "postgresql",
+  "amazonaws"
 ]
 
 export default function About() {
