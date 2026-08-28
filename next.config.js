@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        destination: "https://alfinry.vercel.app/",
+        permanent: true,
+      },
+    ]
+  },
   images: {
     remotePatterns: [
       {
