@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/:path*",
-        destination: "https://alfinry.vercel.app/",
+        destination: "https://alfinry.com/",
         permanent: true,
       },
     ]
